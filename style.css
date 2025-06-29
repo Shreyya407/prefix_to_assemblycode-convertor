@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #2c3e50; 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+/* Heading */
+h2 {
+    color: #ecf0f1;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #ecf0f1; 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1); 
+    background-color: #34495e; 
+    color: #ecf0f1; 
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8), inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    color: #2c3e50; 
+    background-color: #ecf0f1; 
+
+button:hover {
+    background-color: #1abc9c; 
+    box-shadow: 0 0 15px rgba(0, 255, 150, 0.6);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#resetBtn {
+    background-color: #e74c3c;
+    color: #ecf0f1; 
+}
+
+#resetBtn:hover {
+    background-color: #c0392b;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+
+.output-section {
+    margin-top: 20px;
+}
+
+.output {
+    padding: 15px;
+    background-color: #34495e; 
+    color: #ecf0f1; 
+    font-size: 1em;
+    border-radius: 8px;
+    min-height: 100px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1); 
+    overflow-y: auto;
+}
+
+.output-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #ecf0f1; 
+
+input:focus, button:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 15px rgba(0, 255, 255, 0.6);
+}
