@@ -2,8 +2,6 @@
 
 A lightweight web-based tool that **converts prefix expressions to assembly code**. This project is ideal for students and beginners learning expression evaluation, compiler design, or low-level code translation concepts.
 
-![App Preview](./assets/prefix-to-assembly-ui.png) <!-- Update the path as needed -->
-
 ---
 
 ## 💡 Features
